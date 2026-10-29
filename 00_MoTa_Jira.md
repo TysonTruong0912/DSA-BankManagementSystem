@@ -73,3 +73,11 @@ Phiên bản cập nhật hoàn thiện Nexus Bank với:
 - [x] UI + biên dịch + kịch bản test
 - [x] Hạn chế & kết luận
 - [ ] Đính kèm 2–3 screenshot (đăng nhập, menu khách, menu admin)
+
+
+---
+
+## Cập nhật gần nhất
+- Không lộ credential trên UI chào.
+- Yêu cầu nhận tiền lưu SQLite (`money_requests`).
+- Gói full buildable: `NexusBank_FIXED.zip` (nếu nộp kèm).
