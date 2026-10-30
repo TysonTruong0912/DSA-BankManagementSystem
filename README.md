@@ -4,21 +4,6 @@ Chuong trinh console C++11. Cau truc du lieu chinh van la **Hash Table tu cai da
 (`Node** table` + Separate Chaining + Rehash, **khong** dung `unordered_map`).
 Phien ban nay them **co so du lieu SQLite**, **PIN**, **han muc ngay**, **tinh lai**, **nhat ky he thong**... (xem ben duoi).
 
-
-## Thong tin dang nhap KIEM THU (chi dung cho ban demo hoc tap)
-
-| Vai tro | Thong tin |
-|---------|-----------|
-| Admin | user: `admin` / mat khau: `admin123` |
-| Khach (TK mau) | PIN: `123456` (so TK hien thi khi tao du lieu mau lan dau) |
-
-**Canh bao:** Day la do an / demo. Khong dung mat khau/PIN mac dinh trong moi truong that.
-Man hinh chao **khong** hien mat khau hay PIN (da loai bo de bao mat co ban).
-
-## Yeu cau nhan tien
-
-Tu ban nay, yeu cau nhan tien duoc **luu trong SQLite** (bang `money_requests`) — con ton tai sau khi khoi dong lai.
-
 ## Bien dich & chay
 
 | Moi truong | Lenh |
@@ -31,7 +16,7 @@ Tu ban nay, yeu cau nhan tien duoc **luu trong SQLite** (bang `money_requests`) 
 Makefile tu chon: `sqlite3.c` trong thu muc -> SQLite cai san cua he thong -> khong SQLite.
 Ep che do: `make SQLITE=system|amalgam|none`. Voi `SQLITE=none` chuong trinh chay **y nhu ban cu** (luu bang file .txt).
 
-Kiem thu tu dong: `make && python3 tests/run_tests.py` (14 kiem tra).
+Kiem thu tu dong: `make && python3 tests/run_tests.py` (16 kiem tra).
 
 ## Luu tru du lieu
 
